@@ -1,0 +1,544 @@
+<!DOCTYPE HTML>
+<html lang="en-US" manifest="..\../manifest.appcache">
+    
+    <head prefix="og: http://ogp.me/ns# book: http://ogp.me/ns/book#">
+        
+        
+        <meta charset="UTF-8">
+        <title>新闻切换 | 网站组前端文档</title>
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="robots" content="index, follow">
+        <meta name="author" content="">
+        <meta name="description" content="这是网站组前端方便调用的一些组件介绍文档，不仅仅切合基础需求，也切合一些高级需求，比较重要的是，这些组件有一些功能并不是写的非常周全，或者说组件的优化程度并不是很高，所以大家如果有好的想法，都可以积极地反馈到这个组件中，并且改善组件的功能！">
+        <meta name="keywords" content="gitbook,github" >
+        <meta name="generator" content="www.gitbook.io">
+
+        
+        <link rel="next" href="..\../library/basis/banner.html" />
+        
+        
+        <link rel="prev" href="..\../library/basis/pic-list.html" />
+        
+
+        <meta property="og:title" content="新闻切换 | 网站组前端文档">
+        <meta property="og:site_name" content="网站组前端文档">
+        <meta property="og:type" content="book">
+        <meta property="og:locale" content="en_US">
+
+        <meta property="book:author" content="https://github.com/">
+        <meta property="book:tag" content="GitBook">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+        <link rel="shortcut icon" href="..\..\gitbook/images/favicon.ico" type="image/x-icon">
+        
+        
+    </head>
+    <body>
+        
+        
+
+        <link rel="stylesheet" href="..\..\gitbook/style.css">
+        
+
+
+        
+    <div class="book"  data-level="2.1.3" data-basepath="..\.." data-revision="1401884736391">
+    <div class="book-header">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
+    
+    <a href="https://github.com/null" target="_blank" class="btn pull-left home-bookmark" aria-label="GitHub home"><i class="fa fa-bookmark-o"></i></a>
+    
+    <a href="#" class="btn pull-left toggle-search" aria-label="Toggle search"><i class="fa fa-search"></i></a>
+    <span id="font-settings-wrapper">
+        <a href="#" class="btn pull-left toggle-font-settings" aria-label="Toggle font settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="btn-group btn-block">
+        <button id="reduce-font-size" class="btn btn-default">A</button>
+        <button id="enlarge-font-size" class="btn btn-default">A</button>
+    </div>
+
+    <ul class="list-group font-family-list">
+        <li class="list-group-item" data-font="0">Serif</li>
+        <li class="list-group-item" data-font="1">Sans</li>
+    </ul>
+
+    <div class="btn-group btn-group-xs btn-block color-theme-list">
+        <button type="button" class="btn btn-default" id="color-theme-preview-0" data-theme="0">White</button>
+        <button type="button" class="btn btn-default" id="color-theme-preview-1" data-theme="1">Sepia</button>
+        <button type="button" class="btn btn-default" id="color-theme-preview-2" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </span>
+
+    <!-- Actions Right -->
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Share on Google Plus"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Share on Facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Share on Twitter"><i class="fa fa-twitter"></i></a>
+    
+
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-spinner fa-spin"></i>
+        <a href="..\../" >网站组前端文档</a>
+    </h1>
+</div>
+
+    
+
+<div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Search" class="form-control" />
+    </div>
+    <ul class="summary">
+        
+        
+
+        
+
+        
+
+        
+
+        <li data-level="0" data-path="index.html">
+            <a href="..\../"><i class="fa fa-check"></i> Introduction</a>
+        </li>
+        
+    
+        <li class="chapter " data-level="1" data-path="module/README.html">
+            
+            <a href="..\../module/README.html">
+                <i class="fa fa-check"></i> <b>1.</b> 项目模板
+            </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="module/pc/index.html">
+            
+            <a href="..\../module/pc/index.html">
+                <i class="fa fa-check"></i> <b>1.1.</b> PC页面模板
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="module/m/index.html">
+            
+            <a href="..\../module/m/index.html">
+                <i class="fa fa-check"></i> <b>1.2.</b> 手机页面模板
+            </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="library/README.html">
+            
+            <a href="..\../library/README.html">
+                <i class="fa fa-check"></i> <b>2.</b> 组件库
+            </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="library/basis/README.html">
+            
+            <a href="..\../library/basis/README.html">
+                <i class="fa fa-check"></i> <b>2.1.</b> 基础类
+            </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="library/basis/txt-list.html">
+            
+            <a href="..\../library/basis/txt-list.html">
+                <i class="fa fa-check"></i> <b>2.1.1.</b> 新闻列表
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="library/basis/pic-list.html">
+            
+            <a href="..\../library/basis/pic-list.html">
+                <i class="fa fa-check"></i> <b>2.1.2.</b> 图片列表
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" data-path="library/basis/list-tab.html">
+            
+            <a href="..\../library/basis/list-tab.html">
+                <i class="fa fa-check"></i> <b>2.1.3.</b> 新闻切换
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4" data-path="library/basis/banner.html">
+            
+            <a href="..\../library/basis/banner.html">
+                <i class="fa fa-check"></i> <b>2.1.4.</b> Banner切换
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.5" data-path="library/basis/pop.html">
+            
+            <a href="..\../library/basis/pop.html">
+                <i class="fa fa-check"></i> <b>2.1.5.</b> 弹层合集（普通弹层、flash弹层、视频弹层）
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.6" data-path="library/basis/search.html">
+            
+            <a href="..\../library/basis/search.html">
+                <i class="fa fa-check"></i> <b>2.1.6.</b> 搜索模块
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.7" data-path="library/basis/marquee.html">
+            
+            <a href="..\../library/basis/marquee.html">
+                <i class="fa fa-check"></i> <b>2.1.7.</b> 滚动模块
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.8" data-path="library/basis/career.html">
+            
+            <a href="..\../library/basis/career.html">
+                <i class="fa fa-check"></i> <b>2.1.8.</b> 职业模块
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.9" data-path="library/basis/article.html">
+            
+            <a href="..\../library/basis/article.html">
+                <i class="fa fa-check"></i> <b>2.1.9.</b> 文章内页
+            </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="library/advanced/README.html">
+            
+            <a href="..\../library/advanced/README.html">
+                <i class="fa fa-check"></i> <b>2.2.</b> 高级类
+            </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="library/advanced/topbar.html">
+            
+            <a href="..\../library/advanced/topbar.html">
+                <i class="fa fa-check"></i> <b>2.2.1.</b> 顶条功能条
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="library/advanced/dynamic-share.html">
+            
+            <a href="..\../library/advanced/dynamic-share.html">
+                <i class="fa fa-check"></i> <b>2.2.2.</b> 动态输出分享信息
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="library/advanced/lazyload-img.html">
+            
+            <a href="..\../library/advanced/lazyload-img.html">
+                <i class="fa fa-check"></i> <b>2.2.3.</b> 图片延迟加载
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.4" data-path="library/advanced/login.html">
+            
+            <a href="..\../library/advanced/login.html">
+                <i class="fa fa-check"></i> <b>2.2.4.</b> 登陆接口
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.5" data-path="library/advanced/count-down.html">
+            
+            <a href="..\../library/advanced/count-down.html">
+                <i class="fa fa-check"></i> <b>2.2.5.</b> 倒计时
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6" data-path="library/advanced/book-num.html">
+            
+            <a href="..\../library/advanced/book-num.html">
+                <i class="fa fa-check"></i> <b>2.2.6.</b> 领取序列号
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.7" data-path="library/advanced/comment.html">
+            
+            <a href="..\../library/advanced/comment.html">
+                <i class="fa fa-check"></i> <b>2.2.7.</b> 评论系统
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.8" data-path="library/advanced/ilike.html">
+            
+            <a href="..\../library/advanced/ilike.html">
+                <i class="fa fa-check"></i> <b>2.2.8.</b> 点赞系统
+            </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+        
+        <li class="divider"></li>
+        <li>
+            <a href="http://www.gitbook.io/" target="blank" class="gitbook-link">Generated using GitBook</a>
+        </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="page-wrapper" tabindex="-1">
+                <div class="book-progress">
+    <div class="bar">
+        <div class="inner" style="width: 34.78260869565217%;min-width: 30.434782608695652%;"></div>
+    </div>
+    <div class="chapters">
+    
+        <a href="..\../index.html" title="Introduction" class="chapter done new-chapter" data-progress="0" style="left: 0%;"></a>
+    
+        <a href="..\../module/README.html" title="项目模板" class="chapter done new-chapter" data-progress="1" style="left: 4.3478260869565215%;"></a>
+    
+        <a href="..\../module/pc/index.html" title="PC页面模板" class="chapter done " data-progress="1.1" style="left: 8.695652173913043%;"></a>
+    
+        <a href="..\../module/m/index.html" title="手机页面模板" class="chapter done " data-progress="1.2" style="left: 13.043478260869565%;"></a>
+    
+        <a href="..\../library/README.html" title="组件库" class="chapter done new-chapter" data-progress="2" style="left: 17.391304347826086%;"></a>
+    
+        <a href="..\../library/basis/README.html" title="基础类" class="chapter done " data-progress="2.1" style="left: 21.73913043478261%;"></a>
+    
+        <a href="..\../library/basis/txt-list.html" title="新闻列表" class="chapter done " data-progress="2.1.1" style="left: 26.08695652173913%;"></a>
+    
+        <a href="..\../library/basis/pic-list.html" title="图片列表" class="chapter done " data-progress="2.1.2" style="left: 30.434782608695652%;"></a>
+    
+        <a href="..\../library/basis/list-tab.html" title="新闻切换" class="chapter done " data-progress="2.1.3" style="left: 34.78260869565217%;"></a>
+    
+        <a href="..\../library/basis/banner.html" title="Banner切换" class="chapter  " data-progress="2.1.4" style="left: 39.130434782608695%;"></a>
+    
+        <a href="..\../library/basis/pop.html" title="弹层合集（普通弹层、flash弹层、视频弹层）" class="chapter  " data-progress="2.1.5" style="left: 43.47826086956522%;"></a>
+    
+        <a href="..\../library/basis/search.html" title="搜索模块" class="chapter  " data-progress="2.1.6" style="left: 47.82608695652174%;"></a>
+    
+        <a href="..\../library/basis/marquee.html" title="滚动模块" class="chapter  " data-progress="2.1.7" style="left: 52.17391304347826%;"></a>
+    
+        <a href="..\../library/basis/career.html" title="职业模块" class="chapter  " data-progress="2.1.8" style="left: 56.52173913043478%;"></a>
+    
+        <a href="..\../library/basis/article.html" title="文章内页" class="chapter  " data-progress="2.1.9" style="left: 60.869565217391305%;"></a>
+    
+        <a href="..\../library/advanced/README.html" title="高级类" class="chapter  " data-progress="2.2" style="left: 65.21739130434783%;"></a>
+    
+        <a href="..\../library/advanced/topbar.html" title="顶条功能条" class="chapter  " data-progress="2.2.1" style="left: 69.56521739130434%;"></a>
+    
+        <a href="..\../library/advanced/dynamic-share.html" title="动态输出分享信息" class="chapter  " data-progress="2.2.2" style="left: 73.91304347826087%;"></a>
+    
+        <a href="..\../library/advanced/lazyload-img.html" title="图片延迟加载" class="chapter  " data-progress="2.2.3" style="left: 78.26086956521739%;"></a>
+    
+        <a href="..\../library/advanced/login.html" title="登陆接口" class="chapter  " data-progress="2.2.4" style="left: 82.6086956521739%;"></a>
+    
+        <a href="..\../library/advanced/count-down.html" title="倒计时" class="chapter  " data-progress="2.2.5" style="left: 86.95652173913044%;"></a>
+    
+        <a href="..\../library/advanced/book-num.html" title="领取序列号" class="chapter  " data-progress="2.2.6" style="left: 91.30434782608695%;"></a>
+    
+        <a href="..\../library/advanced/comment.html" title="评论系统" class="chapter  " data-progress="2.2.7" style="left: 95.65217391304348%;"></a>
+    
+        <a href="..\../library/advanced/ilike.html" title="点赞系统" class="chapter  " data-progress="2.2.8" style="left: 100%;"></a>
+    
+    </div>
+</div>
+
+                <div class="page-inner">
+                
+                    <section class="normal" id="section-gitbook_10">
+                    
+                        <h1 id="-">新闻列表</h1>
+<blockquote>
+<p>简单的新闻列表模块，包括栏目名称、新闻标题、发布时间</p>
+</blockquote>
+<hr>
+<h2 id="-">输出效果</h2>
+<iframe src="http://jsbin.com/kukam/1/embed?output" class=" foo" id="" style="border: 1px solid rgb(170, 170, 170); width: 100%; min-height: 200px; height: 537px;"></iframe>
+
+<h2 id="html">html</h2>
+<pre><code>&lt;ul class=&quot;fTabNav&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;新闻&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;维护&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;公告&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;专题&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;fTabCont&quot;&gt;
+    &lt;section class=&quot;ftxtList&quot;&gt;
+        &lt;ul class=&quot;fListWrap&quot;&gt;
+            &lt;li&gt;&lt;span class=&quot;sChannel&quot;&gt;&lt;a href=&quot;/news/&quot; target=&quot;_blank&quot;&gt;新闻&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;sTitle&quot;&gt;&lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;金钱产出增加新途径 大话2游戏处处有钱拿&lt;/a&gt;&lt;/span&gt;[01-27]&lt;/li&gt;
+            &lt;li&gt;&lt;span class=&quot;sChannel&quot;&gt;&lt;a href=&quot;/news/&quot; target=&quot;_blank&quot;&gt;新闻&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;sTitle&quot;&gt;&lt;a href=&quot;#&quot; target=&quot;_blank&quot; class=&quot;tRed&quot;&gt;金钱产出增加新途径 大话2游戏处处有钱拿&lt;/a&gt;&lt;/span&gt;[01-27]&lt;/li&gt;
+            &lt;li&gt;&lt;span class=&quot;sChannel&quot;&gt;&lt;a href=&quot;/news/&quot; target=&quot;_blank&quot;&gt;新闻&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;sTitle&quot;&gt;&lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;金钱产出增加新途径 大话2游戏处处有钱拿&lt;/a&gt;&lt;/span&gt;[01-27]&lt;/li&gt;
+            &lt;li&gt;&lt;span class=&quot;sChannel&quot;&gt;&lt;a href=&quot;/news/&quot; target=&quot;_blank&quot;&gt;新闻&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;sTitle&quot;&gt;&lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;金钱产出增加新途径 大话2游戏处处有钱拿&lt;/a&gt;&lt;/span&gt;[01-27]&lt;/li&gt;
+            &lt;li&gt;&lt;span class=&quot;sChannel&quot;&gt;&lt;a href=&quot;/news/&quot; target=&quot;_blank&quot;&gt;新闻&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;sTitle&quot;&gt;&lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;金钱产出增加新途径 大话2游戏处处有钱拿&lt;/a&gt;&lt;/span&gt;[01-27]&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/section&gt;
+    &lt;section class=&quot;ftxtList&quot;&gt;
+        &lt;ul class=&quot;fListWrap&quot;&gt;
+            &lt;li&gt;&lt;span class=&quot;sChannel&quot;&gt;&lt;a href=&quot;/news/&quot; target=&quot;_blank&quot;&gt;维护&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;sTitle&quot;&gt;&lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;金钱产出增加新途径 大话2游戏处处有钱拿&lt;/a&gt;&lt;/span&gt;[01-27]&lt;/li&gt;
+            &lt;li&gt;&lt;span class=&quot;sChannel&quot;&gt;&lt;a href=&quot;/news/&quot; target=&quot;_blank&quot;&gt;维护&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;sTitle&quot;&gt;&lt;a href=&quot;#&quot; target=&quot;_blank&quot; class=&quot;tRed&quot;&gt;金钱产出增加新途径 大话2游戏处处有钱拿&lt;/a&gt;&lt;/span&gt;[01-27]&lt;/li&gt;
+            &lt;li&gt;&lt;span class=&quot;sChannel&quot;&gt;&lt;a href=&quot;/news/&quot; target=&quot;_blank&quot;&gt;维护&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;sTitle&quot;&gt;&lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;金钱产出增加新途径 大话2游戏处处有钱拿&lt;/a&gt;&lt;/span&gt;[01-27]&lt;/li&gt;
+            &lt;li&gt;&lt;span class=&quot;sChannel&quot;&gt;&lt;a href=&quot;/news/&quot; target=&quot;_blank&quot;&gt;维护&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;sTitle&quot;&gt;&lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;金钱产出增加新途径 大话2游戏处处有钱拿&lt;/a&gt;&lt;/span&gt;[01-27]&lt;/li&gt;
+            &lt;li&gt;&lt;span class=&quot;sChannel&quot;&gt;&lt;a href=&quot;/news/&quot; target=&quot;_blank&quot;&gt;维护&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;sTitle&quot;&gt;&lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;金钱产出增加新途径 大话2游戏处处有钱拿&lt;/a&gt;&lt;/span&gt;[01-27]&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/section&gt;
+    &lt;section class=&quot;ftxtList&quot;&gt;
+        &lt;ul class=&quot;fListWrap&quot;&gt;
+            &lt;li&gt;&lt;span class=&quot;sChannel&quot;&gt;&lt;a href=&quot;/news/&quot; target=&quot;_blank&quot;&gt;公告&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;sTitle&quot;&gt;&lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;金钱产出增加新途径 大话2游戏处处有钱拿&lt;/a&gt;&lt;/span&gt;[01-27]&lt;/li&gt;
+            &lt;li&gt;&lt;span class=&quot;sChannel&quot;&gt;&lt;a href=&quot;/news/&quot; target=&quot;_blank&quot;&gt;公告&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;sTitle&quot;&gt;&lt;a href=&quot;#&quot; target=&quot;_blank&quot; class=&quot;tRed&quot;&gt;金钱产出增加新途径 大话2游戏处处有钱拿&lt;/a&gt;&lt;/span&gt;[01-27]&lt;/li&gt;
+            &lt;li&gt;&lt;span class=&quot;sChannel&quot;&gt;&lt;a href=&quot;/news/&quot; target=&quot;_blank&quot;&gt;公告&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;sTitle&quot;&gt;&lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;金钱产出增加新途径 大话2游戏处处有钱拿&lt;/a&gt;&lt;/span&gt;[01-27]&lt;/li&gt;
+            &lt;li&gt;&lt;span class=&quot;sChannel&quot;&gt;&lt;a href=&quot;/news/&quot; target=&quot;_blank&quot;&gt;公告&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;sTitle&quot;&gt;&lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;金钱产出增加新途径 大话2游戏处处有钱拿&lt;/a&gt;&lt;/span&gt;[01-27]&lt;/li&gt;
+            &lt;li&gt;&lt;span class=&quot;sChannel&quot;&gt;&lt;a href=&quot;/news/&quot; target=&quot;_blank&quot;&gt;公告&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;sTitle&quot;&gt;&lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;金钱产出增加新途径 大话2游戏处处有钱拿&lt;/a&gt;&lt;/span&gt;[01-27]&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/section&gt;
+    &lt;section class=&quot;ftxtList&quot;&gt;
+        &lt;ul class=&quot;fListWrap&quot;&gt;
+            &lt;li&gt;&lt;span class=&quot;sChannel&quot;&gt;&lt;a href=&quot;/news/&quot; target=&quot;_blank&quot;&gt;专题&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;sTitle&quot;&gt;&lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;金钱产出增加新途径 大话2游戏处处有钱拿&lt;/a&gt;&lt;/span&gt;[01-27]&lt;/li&gt;
+            &lt;li&gt;&lt;span class=&quot;sChannel&quot;&gt;&lt;a href=&quot;/news/&quot; target=&quot;_blank&quot;&gt;专题&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;sTitle&quot;&gt;&lt;a href=&quot;#&quot; target=&quot;_blank&quot; class=&quot;tRed&quot;&gt;金钱产出增加新途径 大话2游戏处处有钱拿&lt;/a&gt;&lt;/span&gt;[01-27]&lt;/li&gt;
+            &lt;li&gt;&lt;span class=&quot;sChannel&quot;&gt;&lt;a href=&quot;/news/&quot; target=&quot;_blank&quot;&gt;专题&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;sTitle&quot;&gt;&lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;金钱产出增加新途径 大话2游戏处处有钱拿&lt;/a&gt;&lt;/span&gt;[01-27]&lt;/li&gt;
+            &lt;li&gt;&lt;span class=&quot;sChannel&quot;&gt;&lt;a href=&quot;/news/&quot; target=&quot;_blank&quot;&gt;专题&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;sTitle&quot;&gt;&lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;金钱产出增加新途径 大话2游戏处处有钱拿&lt;/a&gt;&lt;/span&gt;[01-27]&lt;/li&gt;
+            &lt;li&gt;&lt;span class=&quot;sChannel&quot;&gt;&lt;a href=&quot;/news/&quot; target=&quot;_blank&quot;&gt;专题&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;sTitle&quot;&gt;&lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;金钱产出增加新途径 大话2游戏处处有钱拿&lt;/a&gt;&lt;/span&gt;[01-27]&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/section&gt;
+</code></pre><h2 id="css">css</h2>
+<pre><code>/*新闻切换*/
+.fTabNav {height:29px;overflow:hidden;background:#23b0eb;}
+.fTabNav li {float:left;width:84px;height:29px;}
+.fTabNav li a {display:block;height:27px;border:2px solid #23b0eb;border-bottom:0;color:#fff;text-align:center;font-size:14px;line-height:27px;}
+.fTabNav li.current a {background:#dff1fb;color:#23b0eb;}
+.fTabCont .ftxtList{display: none}
+.fTabCont .current{display: block}
+</code></pre><h2 id="javascript">Javascript</h2>
+<blockquote>
+<p>$.tab ( btnObj , conObj , params )<br><strong>Parameters</strong>:<br>btnObj <jquery Object||String> 按钮对象<br>conObj <jquery Object||String||Array> 内容对象,如多个可为Array（如：[&quot;#more li&quot;,&quot;#con li&quot;]）<br>params &lt;[Objecj]&gt; 选填参数，（time，index，activeClass）。time：鼠标需要停留的时间然后激活（默认值为180毫秒）；index：先打开的索引值（默认值为0）；activeClass：激活按钮和内容的class（默认值为current）；<br><strong>例子：</strong><br>$.tab(&quot;#tab li&quot;,&quot;#con p&quot;);<br>//鼠标需要停留2000毫秒，然后激活<br>$.tab(&quot;#tab li&quot;,&quot;#con p&quot;,{time:2000});<br>//鼠标需要停留2000毫秒，然后激活；默认激活第二个<br>$.tab(&quot;#tab li&quot;,&quot;#con p&quot;,{time:2000,index:1});<br>//鼠标需要停留2000毫秒，然后激活；默认激活第二个；激活按钮和内容的activeClass=&quot;on&quot;<br>$.tab(&quot;#tab li&quot;,&quot;#con p&quot;,{time:2000,index:1,activeClass:&quot;on&quot;});</p>
+</blockquote>
+<pre><code>nie.use([&quot;ui.tab&quot;], function () {
+//tab
+    $.tab(&quot;.fTabNav li&quot;, &quot;.fTabCont .ftxtList&quot;);
+
+});
+</code></pre>
+                    
+                    </section>
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="..\../library/basis/pic-list.html" class="navigation navigation-prev " aria-label="Previous page: 图片列表"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="..\../library/basis/banner.html" class="navigation navigation-next " aria-label="Next page: Banner切换"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.1.3/ace.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.1.3/mode-javascript.js"></script>
+        <script src="..\..\gitbook/jsrepl/jsrepl.js" id="jsrepl-script"></script>
+        <script src="..\..\gitbook/app.js"></script>
+        
+
+    
+    <script src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+    
+    <script src="..\..\gitbook/plugins/gitbook-plugin-mathjax/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
