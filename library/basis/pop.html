@@ -1,0 +1,660 @@
+<!DOCTYPE HTML>
+<html lang="en-US" manifest="..\../manifest.appcache">
+    
+    <head prefix="og: http://ogp.me/ns# book: http://ogp.me/ns/book#">
+        
+        
+        <meta charset="UTF-8">
+        <title>弹层合集（普通弹层、flash弹层、视频弹层） | 网站组前端文档</title>
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="robots" content="index, follow">
+        <meta name="author" content="fangge">
+        <meta name="description" content="这是网站组前端方便调用的一些组件介绍文档，不仅仅切合基础需求，也切合一些高级需求，比较重要的是，这些组件有一些功能并不是写的非常周全，或者说组件的优化程度并不是很高，所以大家如果有好的想法，都可以积极地反馈到这个组件中，并且改善组件的功能！">
+        <meta name="keywords" content="gitbook,github" >
+        <meta name="generator" content="www.gitbook.io">
+
+        
+        <link rel="next" href="..\../library/basis/search.html" />
+        
+        
+        <link rel="prev" href="..\../library/basis/banner.html" />
+        
+
+        <meta property="og:title" content="弹层合集（普通弹层、flash弹层、视频弹层） | 网站组前端文档">
+        <meta property="og:site_name" content="网站组前端文档">
+        <meta property="og:type" content="book">
+        <meta property="og:locale" content="en_US">
+
+        <meta property="book:author" content="https://github.com/fangge">
+        <meta property="book:tag" content="GitBook">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+        <link rel="shortcut icon" href="..\..\gitbook/images/favicon.ico" type="image/x-icon">
+        
+        
+    </head>
+    <body>
+        
+        
+
+        <link rel="stylesheet" href="..\..\gitbook/style.css">
+        
+
+
+        
+    <div class="book" data-github="fangge/NIEmodule_book" data-level="2.1.5" data-basepath="..\.." data-revision="1401886006037">
+    <div class="book-header">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
+    
+    <a href="https://github.com/fangge/NIEmodule_book" target="_blank" class="btn pull-left home-bookmark" aria-label="GitHub home"><i class="fa fa-bookmark-o"></i></a>
+    
+    <a href="#" class="btn pull-left toggle-search" aria-label="Toggle search"><i class="fa fa-search"></i></a>
+    <span id="font-settings-wrapper">
+        <a href="#" class="btn pull-left toggle-font-settings" aria-label="Toggle font settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="btn-group btn-block">
+        <button id="reduce-font-size" class="btn btn-default">A</button>
+        <button id="enlarge-font-size" class="btn btn-default">A</button>
+    </div>
+
+    <ul class="list-group font-family-list">
+        <li class="list-group-item" data-font="0">Serif</li>
+        <li class="list-group-item" data-font="1">Sans</li>
+    </ul>
+
+    <div class="btn-group btn-group-xs btn-block color-theme-list">
+        <button type="button" class="btn btn-default" id="color-theme-preview-0" data-theme="0">White</button>
+        <button type="button" class="btn btn-default" id="color-theme-preview-1" data-theme="1">Sepia</button>
+        <button type="button" class="btn btn-default" id="color-theme-preview-2" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </span>
+
+    <!-- Actions Right -->
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Share on Google Plus"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Share on Facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Share on Twitter"><i class="fa fa-twitter"></i></a>
+    
+
+    
+    <a href="https://github.com/fangge/NIEmodule_book/stargazers" target="_blank" class="btn pull-right count-star hidden-xs"><i class="fa fa-star-o"></i> Star (<span>-</span>)</a>
+    <a href="https://github.com/fangge/NIEmodule_book/watchers" target="_blank" class="btn pull-right count-watch hidden-xs"><i class="fa fa-eye"></i> Watch (<span>-</span>)</a>
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-spinner fa-spin"></i>
+        <a href="..\../" >网站组前端文档</a>
+    </h1>
+</div>
+
+    
+
+<div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Search" class="form-control" />
+    </div>
+    <ul class="summary">
+        
+        
+        
+        <li>
+            <a href="https://github.com/fangge" target="blank" class="author-link">About the author</a>
+        </li>
+        
+
+        
+        
+        <li>
+            <a href="https://github.com/fangge/NIEmodule_book/issues" target="blank"class="issues-link">Questions and Issues</a>
+        </li>
+        
+
+        
+        
+        <li>
+            <a href="https://github.com/fangge/NIEmodule_book/edit/master/library/basis/pop.md" target="blank" class="contribute-link">Edit and Contribute</a>
+        </li>
+        
+
+        
+        <li class="divider"></li>
+        
+
+        <li data-level="0" data-path="index.html">
+            <a href="..\../"><i class="fa fa-check"></i> Introduction</a>
+        </li>
+        
+    
+        <li class="chapter " data-level="1" data-path="module/README.html">
+            
+            <a href="..\../module/README.html">
+                <i class="fa fa-check"></i> <b>1.</b> 项目模板
+            </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="module/pc/index.html">
+            
+            <a href="..\../module/pc/index.html">
+                <i class="fa fa-check"></i> <b>1.1.</b> PC页面模板
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="module/m/index.html">
+            
+            <a href="..\../module/m/index.html">
+                <i class="fa fa-check"></i> <b>1.2.</b> 手机页面模板
+            </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="library/README.html">
+            
+            <a href="..\../library/README.html">
+                <i class="fa fa-check"></i> <b>2.</b> 组件库
+            </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="library/basis/README.html">
+            
+            <a href="..\../library/basis/README.html">
+                <i class="fa fa-check"></i> <b>2.1.</b> 基础类
+            </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="library/basis/txt-list.html">
+            
+            <a href="..\../library/basis/txt-list.html">
+                <i class="fa fa-check"></i> <b>2.1.1.</b> 新闻列表
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="library/basis/pic-list.html">
+            
+            <a href="..\../library/basis/pic-list.html">
+                <i class="fa fa-check"></i> <b>2.1.2.</b> 图片列表
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" data-path="library/basis/list-tab.html">
+            
+            <a href="..\../library/basis/list-tab.html">
+                <i class="fa fa-check"></i> <b>2.1.3.</b> 新闻切换
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4" data-path="library/basis/banner.html">
+            
+            <a href="..\../library/basis/banner.html">
+                <i class="fa fa-check"></i> <b>2.1.4.</b> Banner切换
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.5" data-path="library/basis/pop.html">
+            
+            <a href="..\../library/basis/pop.html">
+                <i class="fa fa-check"></i> <b>2.1.5.</b> 弹层合集（普通弹层、flash弹层、视频弹层）
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.6" data-path="library/basis/search.html">
+            
+            <a href="..\../library/basis/search.html">
+                <i class="fa fa-check"></i> <b>2.1.6.</b> 搜索模块
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.7" data-path="library/basis/marquee.html">
+            
+            <a href="..\../library/basis/marquee.html">
+                <i class="fa fa-check"></i> <b>2.1.7.</b> 滚动模块
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.8" data-path="library/basis/career.html">
+            
+            <a href="..\../library/basis/career.html">
+                <i class="fa fa-check"></i> <b>2.1.8.</b> 职业模块
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.9" data-path="library/basis/article.html">
+            
+            <a href="..\../library/basis/article.html">
+                <i class="fa fa-check"></i> <b>2.1.9.</b> 文章内页
+            </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="library/advanced/README.html">
+            
+            <a href="..\../library/advanced/README.html">
+                <i class="fa fa-check"></i> <b>2.2.</b> 高级类
+            </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="library/advanced/topbar.html">
+            
+            <a href="..\../library/advanced/topbar.html">
+                <i class="fa fa-check"></i> <b>2.2.1.</b> 顶条功能条
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="library/advanced/dynamic-share.html">
+            
+            <a href="..\../library/advanced/dynamic-share.html">
+                <i class="fa fa-check"></i> <b>2.2.2.</b> 动态输出分享信息
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="library/advanced/lazyload-img.html">
+            
+            <a href="..\../library/advanced/lazyload-img.html">
+                <i class="fa fa-check"></i> <b>2.2.3.</b> 图片延迟加载
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.4" data-path="library/advanced/login.html">
+            
+            <a href="..\../library/advanced/login.html">
+                <i class="fa fa-check"></i> <b>2.2.4.</b> 登陆接口
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.5" data-path="library/advanced/count-down.html">
+            
+            <a href="..\../library/advanced/count-down.html">
+                <i class="fa fa-check"></i> <b>2.2.5.</b> 倒计时
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6" data-path="library/advanced/book-num.html">
+            
+            <a href="..\../library/advanced/book-num.html">
+                <i class="fa fa-check"></i> <b>2.2.6.</b> 领取序列号
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.7" data-path="library/advanced/comment.html">
+            
+            <a href="..\../library/advanced/comment.html">
+                <i class="fa fa-check"></i> <b>2.2.7.</b> 评论系统
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.8" data-path="library/advanced/ilike.html">
+            
+            <a href="..\../library/advanced/ilike.html">
+                <i class="fa fa-check"></i> <b>2.2.8.</b> 点赞系统
+            </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+        
+        <li class="divider"></li>
+        <li>
+            <a href="http://www.gitbook.io/" target="blank" class="gitbook-link">Generated using GitBook</a>
+        </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="page-wrapper" tabindex="-1">
+                <div class="book-progress">
+    <div class="bar">
+        <div class="inner" style="width: 43.47826086956522%;min-width: 39.130434782608695%;"></div>
+    </div>
+    <div class="chapters">
+    
+        <a href="..\../index.html" title="Introduction" class="chapter done new-chapter" data-progress="0" style="left: 0%;"></a>
+    
+        <a href="..\../module/README.html" title="项目模板" class="chapter done new-chapter" data-progress="1" style="left: 4.3478260869565215%;"></a>
+    
+        <a href="..\../module/pc/index.html" title="PC页面模板" class="chapter done " data-progress="1.1" style="left: 8.695652173913043%;"></a>
+    
+        <a href="..\../module/m/index.html" title="手机页面模板" class="chapter done " data-progress="1.2" style="left: 13.043478260869565%;"></a>
+    
+        <a href="..\../library/README.html" title="组件库" class="chapter done new-chapter" data-progress="2" style="left: 17.391304347826086%;"></a>
+    
+        <a href="..\../library/basis/README.html" title="基础类" class="chapter done " data-progress="2.1" style="left: 21.73913043478261%;"></a>
+    
+        <a href="..\../library/basis/txt-list.html" title="新闻列表" class="chapter done " data-progress="2.1.1" style="left: 26.08695652173913%;"></a>
+    
+        <a href="..\../library/basis/pic-list.html" title="图片列表" class="chapter done " data-progress="2.1.2" style="left: 30.434782608695652%;"></a>
+    
+        <a href="..\../library/basis/list-tab.html" title="新闻切换" class="chapter done " data-progress="2.1.3" style="left: 34.78260869565217%;"></a>
+    
+        <a href="..\../library/basis/banner.html" title="Banner切换" class="chapter done " data-progress="2.1.4" style="left: 39.130434782608695%;"></a>
+    
+        <a href="..\../library/basis/pop.html" title="弹层合集（普通弹层、flash弹层、视频弹层）" class="chapter done " data-progress="2.1.5" style="left: 43.47826086956522%;"></a>
+    
+        <a href="..\../library/basis/search.html" title="搜索模块" class="chapter  " data-progress="2.1.6" style="left: 47.82608695652174%;"></a>
+    
+        <a href="..\../library/basis/marquee.html" title="滚动模块" class="chapter  " data-progress="2.1.7" style="left: 52.17391304347826%;"></a>
+    
+        <a href="..\../library/basis/career.html" title="职业模块" class="chapter  " data-progress="2.1.8" style="left: 56.52173913043478%;"></a>
+    
+        <a href="..\../library/basis/article.html" title="文章内页" class="chapter  " data-progress="2.1.9" style="left: 60.869565217391305%;"></a>
+    
+        <a href="..\../library/advanced/README.html" title="高级类" class="chapter  " data-progress="2.2" style="left: 65.21739130434783%;"></a>
+    
+        <a href="..\../library/advanced/topbar.html" title="顶条功能条" class="chapter  " data-progress="2.2.1" style="left: 69.56521739130434%;"></a>
+    
+        <a href="..\../library/advanced/dynamic-share.html" title="动态输出分享信息" class="chapter  " data-progress="2.2.2" style="left: 73.91304347826087%;"></a>
+    
+        <a href="..\../library/advanced/lazyload-img.html" title="图片延迟加载" class="chapter  " data-progress="2.2.3" style="left: 78.26086956521739%;"></a>
+    
+        <a href="..\../library/advanced/login.html" title="登陆接口" class="chapter  " data-progress="2.2.4" style="left: 82.6086956521739%;"></a>
+    
+        <a href="..\../library/advanced/count-down.html" title="倒计时" class="chapter  " data-progress="2.2.5" style="left: 86.95652173913044%;"></a>
+    
+        <a href="..\../library/advanced/book-num.html" title="领取序列号" class="chapter  " data-progress="2.2.6" style="left: 91.30434782608695%;"></a>
+    
+        <a href="..\../library/advanced/comment.html" title="评论系统" class="chapter  " data-progress="2.2.7" style="left: 95.65217391304348%;"></a>
+    
+        <a href="..\../library/advanced/ilike.html" title="点赞系统" class="chapter  " data-progress="2.2.8" style="left: 100%;"></a>
+    
+    </div>
+</div>
+
+                <div class="page-inner">
+                
+                    <section class="normal" id="section-gitbook_24">
+                    
+                        <h1 id="-flash-">弹层合集（普通弹层、flash弹层、视频弹层）</h1>
+<blockquote>
+<p>弹层插件，可以控制弹层的大小、传入flash地址，和flash的wmode，视频地址</p>
+</blockquote>
+<hr>
+<h2 id="-">输出效果</h2>
+<blockquote>
+<p>jsbin不知道为啥不支持flash，大家可以直接下载temple试试看</p>
+</blockquote>
+<iframe src="http://jsbin.com/cuduk/2/embed?output" class=" foo" id="" style="border: 1px solid rgb(170, 170, 170); width: 100%; min-height: 200px; height: 537px;"></iframe>
+
+<h2 id="html">html</h2>
+<pre><code>&lt;!--普通弹层--&gt;
+&lt;div class=&quot;dTc&quot; id=&quot;shareTc&quot; style=&quot;display:none&quot;&gt;
+    &lt;h3 class=&quot;hide&quot;&gt;分享赢龙马，送贴心防雾霭口罩&lt;/h3&gt;
+    &lt;a class=&quot;aCloseQ&quot; href=&quot;javascript:void(0)&quot;&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;!--flash弹层--&gt;
+&lt;div id=&quot;flashtc1&quot; class=&quot;dTc&quot; style=&quot;display:none&quot;&gt;
+    &lt;a href=&quot;javascript:void(0)&quot; class=&quot;aCloseQ&quot;&gt;&lt;/a&gt;
+    &lt;div id=&quot;flash-wrap&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--视频弹层--&gt;
+&lt;div class=&quot;dTc videoBox&quot; id=&quot;videoShow&quot; style=&quot;display: none&quot;&gt;
+    &lt;a class=&quot;aCloseQ&quot; title=&quot;关闭&quot;&gt;关闭&lt;/a&gt;
+    &lt;div class=&quot;dialogCon&quot;&gt;
+        &lt;div class=&quot;dVideoBox&quot;&gt;&lt;div id=&quot;dVideo&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre><h2 id="css">css</h2>
+<pre><code>/*弹层蒙版*/
+.dTc{position:absolute;zoom:1;top:200px;z-index:999999}
+.aCloseQ{display:block;position:absolute;right:21px;top:27px;width:20px;height:20px;cursor:pointer;text-indent: -9999px}
+#NIE-overlayer{display:none;position:absolute;width:100%;height:100%;background:#000;filter:alpha(opacity=80);opacity:.8;top:0;left:0;z-index:99}
+/*视频弹层*/
+.videoBox {background: #000;}
+.videoBox .dialogCon {overflow: hidden;padding: 5px;}
+.videoBox .dVideoBox {border: 1px solid #999;padding: 4px;background: #666;}
+.videoBox .aCloseQ {position: absolute;width: 57px;height: 57px;display: block;right: -57px;top: 0;cursor: pointer;overflow: hidden;text-indent: -9999px;background: url(http://res.nie.netease.com/tx3/gw/13v1/images/close.jpg) no-repeat 0 0;}
+</code></pre><h2 id="javascript">Javascript</h2>
+<ol>
+<li>调用相关js<br><pre>
+$(function(){
+ //-----------以下为普通弹层示例
+ $(&#39;#pop1&#39;).click(function(){<pre><code> openD({
+     id: &#39;#shareTc&#39;,//弹出的弹层id
+     type : &#39;1&#39;//1为普通弹层，2为flash弹层，3为视频弹层
+ })
+</code></pre> })
+ //-----------以下为flash弹层示例
+ $(&#39;#pop2&#39;).click(function(){<pre><code> openD({
+     id: &#39;#flashtc1&#39;,//弹出的弹层id
+     type : &#39;2&#39;,//1为普通弹层，2为flash弹层，3为视频弹层
+     width: &#39;960&#39;,//弹层宽度
+     height: &#39;600&#39;,//弹层高度
+     flashurl:&#39;http://res.nie.netease.com/xy2/qt/14/0109_biwu/pop.swf&#39;,//弹层所需的flash地址
+     wmode: &#39;opaque&#39;
+ })
+</code></pre> })
+ //-----------以下为视频弹层示例
+ $(&#39;#pop3&#39;).click(function(){<pre><code> openD({
+     id: &#39;#videoShow&#39;,//弹出的弹层id
+     type : &#39;3&#39;,//1为普通弹层，2为flash弹层，3为视频弹层
+     width: &#39;800&#39;,//弹层宽度
+     height: &#39;450&#39;,//弹层高度
+     videourl:&#39;http://v.nie.netease.com/tx3/2013/1231/longwu.f4v&#39;//弹层所需的flash地址
+ })
+</code></pre> })</li>
+</ol>
+<p>})
+//flash自己内部调用的函数
+var closeMe = function(){
+    $(&quot;#NIE-overlayer&quot;).hide();
+    $(&#39;.aCloseQ&#39;).show();
+    $(&#39;#flashtc1&#39;).hide();
+}
+</pre></p>
+<ol>
+<li>弹层封装好的js（会有些累赘，因为考虑到各种情况，可能官网类比较适用，而且还有可优化的地方）
+<pre>
+//弹层
+//--这个函数是将三种基本弹层合在一体的，所以代码会比较长一些，可以根据需求自己独立出来相对应的弹层代码
+function openD(opt){
+//只针对一个tab con
+var settings = {<pre><code>     id: &#39;&#39;,
+     type : &#39;&#39;,//1为普通弹层，2为flash弹层，3为视频弹层
+     width: &#39;&#39;,//2和3需要使用
+     height: &#39;&#39;,//2和3需要使用
+     flashurl:&#39;&#39;,//2需要使用，flash地址
+     videourl:&#39;&#39;,//3需要使用，视频地址
+     wmode: &#39;&#39;,//2和3可能需要使用
+     startImg:&#39;&#39;//3需要使用，视频截图
+ },
+ opt = opt || {};
+</code></pre>settings = $.extend(settings, opt);</li>
+</ol>
+<p>var popbg = $(&quot;#NIE-overlayer&quot;),
+        popid = $(settings.id),
+        type = settings.type,
+        w =parseInt(settings.width),
+        h = parseInt(settings.height),
+        vimg = settings.startImg,
+        furl = settings.flashurl,
+        vurl = settings.videourl,
+        wmode = settings.wmode,
+        dh = $(document).height(),
+        wh = $(window).height(),
+        ww = $(window).width(),
+        st = $(window).scrollTop(),
+        sl = $(window).scrollLeft();
+// 蒙版弹出
+popbg.css({&quot;height&quot;:dh}).show();
+// 弹层弹出
+function posPop(idname){
+    idname.height()&gt;wh?idname.fadeIn().css({&#39;top&#39;:st,&#39;left&#39;:(ww-idname.width())/2+sl}):idname.fadeIn().css({&#39;top&#39;:(wh-idname.outerHeight())/2+st,&#39;left&#39;:(ww-idname.outerWidth())/2+sl});
+}
+//  弹层关闭
+$(&#39;.aCloseQ&#39;).click(function(){
+    $(this).parent().fadeOut();
+    $(&quot;#NIE-overlayer&quot;).hide();
+});
+//判断弹层类别
+switch (type){
+    case &#39;1&#39;:
+        posPop(popid);
+        break;
+    case &#39;2&#39;:
+        $(&#39;#flash-wrap&#39;).html(&#39;&#39;);
+        nie.use([&quot;util.swfobject&quot;], function () {
+            $(&#39;#flash-wrap&#39;).flash({
+                swf:furl,
+                width:w,
+                height:h,
+                allowScriptAccess:&#39;always&#39;,
+                wmode:wmode
+            });
+        })
+        var obj = $(&#39;#flashtc1&#39;);
+        obj.css({&#39;width&#39;:w,&#39;height&#39;:h});
+        $(&#39;.aCloseQ&#39;).hide();//flash本身有做关闭按钮
+        posPop(popid);</p>
+<pre><code>    break;
+case &#39;3&#39;:
+    $(&#39;#dVideo&#39;).html(&#39;&#39;).css({&#39;height&#39;:h+&#39;px&#39;,&#39;width&#39;:w+&#39;px&#39;});
+    popid.css({&#39;height&#39;:h+22+&#39;px&#39;,&#39;width&#39;:w+22+&#39;px&#39;});
+    posPop(popid);
+    nie.use([&#39;nie.util.video&#39;], function () {
+        nie.util.video($(&#39;#dVideo&#39;),{
+            movieUrl:vurl,
+            mp4_movieUrl:vurl.replace(/\.(flv|f4v)/,&#39;.mp4&#39;),
+            width:w,
+            height:h,
+            startImg:vimg,
+            bufferTime:5,
+            loopTimes:0,
+            wmode:&quot;opaque&quot;,
+            volume:0.8,
+            autoPlay:true
+        });
+    })
+    break;
+default :break;
+</code></pre><p>}</p>
+<p>}
+</pre></p>
+
+                    
+                    </section>
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="..\../library/basis/banner.html" class="navigation navigation-prev " aria-label="Previous page: Banner切换"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="..\../library/basis/search.html" class="navigation navigation-next " aria-label="Next page: 搜索模块"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.1.3/ace.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.1.3/mode-javascript.js"></script>
+        <script src="..\..\gitbook/jsrepl/jsrepl.js" id="jsrepl-script"></script>
+        <script src="..\..\gitbook/app.js"></script>
+        
+
+    
+    <script src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+    
+    <script src="..\..\gitbook/plugins/gitbook-plugin-mathjax/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
